@@ -59,6 +59,14 @@ public class Main {
             totalWithPerсent = (totalWithPerсent + salary_2) * (1 + persent) ;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + totalWithPerсent + " рублей ");
         }
+        //task 10
+        System.out.println("Задача №10");
+        int number = 2;
+        int numberOne = 1;
+        for (int i = 1; i <= 10 ; i++) {
+            numberOne = number * i;
+            System.out.println(number + "*" + i + "=" + numberOne);
+        }
+        }
     }
-}
 
